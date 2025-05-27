@@ -1,0 +1,24 @@
+{
+  "AC": {
+    "DB": {
+      "engine": "mysql",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dbname": "idbe_ac",
+      "user": "",
+      "pwd": ""
+    },
+    "Bloom": {
+      "hash-count": 5,
+      "size": 1000
+    }
+  },
+  "Public-Parameters": {
+    "description": ["there are degree + 1 points"],
+    "degree": 15
+  },
+  "Test-Parameter": {
+    "user_nums": 100,
+    "anon_id_nums": 10
+  }
+}
